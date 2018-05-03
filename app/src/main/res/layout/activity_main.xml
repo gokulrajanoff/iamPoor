@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="115dp">
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/iam"
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/Poor"
-            android:layout_marginStart="133dp"
+            android:layout_marginStart="115dp"
             android:text="@string/iam"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/imageView"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="119dp"
+            android:layout_marginEnd="108dp"
             android:text="@string/poor"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -50,9 +51,11 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginBottom="56dp"
+            android:contentDescription="@string/CoalimageDescription"
             app:srcCompat="@drawable/coal"
             tools:layout_editor_absoluteX="-2dp"
             tools:layout_editor_absoluteY="134dp" />
+
     </RelativeLayout>
 
 
